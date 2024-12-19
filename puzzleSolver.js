@@ -72,7 +72,6 @@ function createGraph(fragments) {
 // Функція для видалення кожної третьої пари
 function removeOverlappingPairs(result) {
   let finalResult = result.slice(0, 2); // Додаємо перші два символи
-  console.log(finalResult);
 
   for (let i = 2; i < result.length; i += 2) {
     // Додаємо тільки ту пару, яка не перекривається з попередньою
